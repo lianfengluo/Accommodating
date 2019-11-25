@@ -1,23 +1,9 @@
-# 9900
-Project for 9900 (`Docker` container orientated)
-
-
-
 # Authors
-
-Group name: **JRMA**
-
-Group Members:
-
-| Name | zID  | 
-| :-----: | :--: | 
-| Richard Luo | z5170521 |
-| Jeremy He | z5142853 |
-
+Richard Luo
 
 # Frontend
 *Language:* Javascript\
-*framework:* React\
+*framework:* React
 
 ## Install npm
 Follow the [instruction](https://www.npmjs.com/get-npm) to install npm.
