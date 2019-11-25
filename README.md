@@ -20,14 +20,6 @@ In the project directory (frontend), you can run:
 ### `npm install`
 To install all the package in the `package.json` file.
 
-### fill in the google api key
-
-In the `frontend/.env` file.
-
-```
-REACT_APP_GMAIL_API_KEY="<Your google api key>"
-```
-
 ### `npm start` (for developement)
 
 Runs the app in the development mode.<br>
@@ -46,6 +38,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 ### notes:
+
+### fill in the google api key
+
+In the `frontend/.env` file.
+
+```
+REACT_APP_GMAIL_API_KEY="<Your google api key>"
+```
+
 The `.env`, `.env.development` and `.env.production` will be used for the global variable settings.
 <hr>
 
