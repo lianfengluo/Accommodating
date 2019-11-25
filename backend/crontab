@@ -1,0 +1,5 @@
+#!/bin/sh
+00 00 * * * python3 /backend/manage.py runjob dailyjob
+00 00 * * * python3 /backend/manage.py runjob cache_cleanup
+    
+    

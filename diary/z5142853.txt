@@ -1,0 +1,34 @@
+Week 1
+Group member searching and forming. I tend to choose project 1, 4 and 6. Github account created. Preview and review lecture to figure out key points in about the project.
+
+Week 2
+Group members confirmed while one member have problem enrolling. We have agreed to choose project 4. The main tech problem is non of us are familiar enough with machine learning, so we need heaps of time learning it.
+
+week 3
+The group member trying to enroll in the course failed, so we now have only three members. Project 7 released and we finally decided to choose this project. I created the Microsoft Team group for our team project. Together with Muyang, I am in charge of the Software architecture, Diagram of Software Architecture, ER diagram for database, System Module and Flow, Project management, and Sprint schedule of the proposal. For project functionality, we decide to focus on basic functions like property publishing, searching and display function. In addition, we will also conduct research on existing products to learn what they do good and what they should inprove.
+
+
+week 4
+Another group member dropped the course, so that we now have only 2 members. 
+Since my future career plan is to become a product manager, so I am learning some theory and practice myself in this field to improve the project in this field. In addition, I will also discuss some technical details with my team member to make it better. For functionalites, we have implemented basic functions and what we are going to do is adding more assistant function to it, like login with email, accommodation review and property modification. 
+
+week 5
+So far we have finished the basic structure of our website, conducting some tests to discovered and removed some bugs and ask tutor for some ideas to improve our project.  My teammate and I have discussed about how to deploy the whole code in a faster, more agile way. For functionalities, most of the function are finished so we will conduct some test to the project to make sure it could work smoothly.
+
+week 6
+So for our project are almost ready to present functionally thanks to the cooperation between me and my teammate. Finishing is not our goal, which is treating it as a commercial product and make it as robust as possible even in the future. To make it more secure, we are deciding to implement some security functionalities in it. 
+
+week 7
+Less time spend on this project since it is almost finished and assignments, reports from other courses are coming. After research on existing products, we decide to implement HTTPS for the project.  
+
+week 8
+There are mainly two workload in this week: 1.we are drafting the final report and slides for the final presentation; 2. we are going to discuss the and implement details of HTTPS.
+
+week 9
+Busy week. Drafting final report, user manual. In addition, out-of-the-box HTTPS function has finalised. 
+
+week 10:
+focus on testing, checking project description again to make sure all functions required are implemented, and all required chapters are included in the report. In addition, we are going to prepare for the final presentation.
+
+week 11:
+presentation finished, stability improvement for better software quality. Cheer for finishing the project!

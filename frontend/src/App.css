@@ -1,0 +1,441 @@
+a {
+  color: rgb(90,90,90);
+ }
+ .user-forms a {
+   color:#1890ff;
+ }
+ .user-forms a:hover {
+  text-decoration: underline;
+  color:#188fffb7;
+}
+.button-link {
+  color:#1890ff;
+  border: 0px;
+}
+.button-link:hover {
+  text-decoration: underline;
+  color:#188fffb7;
+}
+.App {
+  text-align: center;
+}
+.website-title {
+  color:black
+}
+.user-search-input {
+  width: 100%;
+  height: 100%;
+}
+.search-bar-button {
+  width: 100%; 
+  height: 45px; 
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 80px;
+}
+.property-search-field {
+  /* border-bottom: 2px solid rgba(180, 180, 180, 0.541); */
+  height: 300px; 
+  min-width: 770px;
+  z-index: 999;
+}
+.search-price-fields {
+  align-self: flex-end;
+}
+.home-page {
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgb(255, 255, 255), rgba(207, 205, 205, 0.075));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(190, 190, 190, 0.082)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.message {
+  border: 1px solid rgba(39, 39, 39, 0.281);
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.host-username {
+  color:rgba(18, 147, 253, 0.959)
+}
+.search-box-text-field {
+  cursor: pointer;
+  color:rgb(90,90,90);
+}
+.search-box-text-field:hover {
+  text-shadow: 2px 2px 4px rgb(190, 190, 190);
+  text-decoration: none;
+  color:rgb(90,90,90);
+}
+.like-button {
+  font-size: 30px;
+  float: right;
+  margin-right: 10px;
+  z-index: 4;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.like-button-sm {
+  font-size: 10px;
+  float: right;
+  z-index: 40;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.like-button-property-page {
+  font-size: 30px;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.edit-property-span {
+  width:70% !important;
+}
+.search-page-search-bar {
+  z-index: 999;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.26);
+}
+.comment-image {
+  width: 80px;
+  height: 80px;
+}
+.comment-image img {
+  width: 80px;
+  height: 80px;
+}
+.booking-box {
+  min-width: 980px;
+}
+.search-page-map {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.booking-total {
+  color: rgba(128, 128, 128, 0.952);
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.booking-left-window { 
+  /* width: 400px;  */
+  min-width: 400px;
+  max-width: 400px;
+}
+.booking-image-gallery {
+  height: 300px; 
+  width: 400px; 
+  max-height: 300px;
+  max-width: 400px;
+  object-fit: fill;
+  bottom:0;
+}
+.booking-date {
+  color: rgba(128, 128, 128, 0.664);
+}
+.booking-image-gallery img {
+  height: 300px; 
+  width: 400px; 
+  max-height: 300px;
+  max-width: 400px;
+  object-fit: fill;
+  bottom:0;
+  vertical-align: middle;
+}
+.search-image-gallery {
+  height: 280px; 
+  width: 300px; 
+  max-width: 300px;
+  max-height: 280px;
+  object-fit: fill;
+  bottom:0;
+}
+.search-image-gallery img {
+  max-width:300px;
+  max-height:280px;
+  height:280px;
+  width:300px;
+  object-fit: fill;
+  bottom:0;
+  vertical-align: middle;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: rgba(121, 121, 121, 0.829) !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(121, 121, 121, 0.829) !important;
+}
+::placeholder {
+  color: rgba(121, 121, 121, 0.829) !important;
+}
+.Page-header {
+  border-bottom: 1px solid #ebedf0;
+}
+.ant-upload-list-item-error {
+  border-color: rgb(194, 194, 194) !important;
+}
+.search-bar-style  .ant-input {
+    height: 45px !important;
+}
+.search-bar-style-select {
+  height: 45px;
+}
+.search-bar-style-select  .ant-select-selection--single {
+    height: 45px !important;
+    line-height: 1;
+    font-size: 15px;
+}
+.search-bar-style-select .ant-form-item-control  {
+  line-height: 1;
+}
+.search-bar-style-select .ant-select-selection__placeholder {
+  height: 100%;
+  color: rgba(121, 121, 121, 0.486) !important;
+}
+.search-bar-style-select .ant-select-selection__rendered {
+  line-height: 40px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Accommodation-price-tag {
+  color:black;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 50px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.image-display-field {
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.863);
+  text-align: center;
+  /* min-height: 600px; */
+  object-fit: fill;
+  min-width: 800px;
+}
+.Accommodation-img-container {
+  object-fit: fill;
+}
+.Accommodation-img-container img {
+  width:100%;
+  object-fit: fill;
+  height:100%;
+}
+
+.google-map-display-img {
+  max-width:100%;
+  max-height:230px;
+  height:230px;
+  width:100%;
+  object-fit: fill;
+}
+.google-map-display-img img {
+  max-width:100%;
+  max-height:230px;
+  height:230px;
+  width:100%;
+  object-fit: fill;
+}
+
+#message-window {
+  /* border-top: 1px solid rgba(0, 0, 0, 0.253); */
+  overflow:scroll;
+   height:450px;
+  /* border-radius: 5px; */
+  background-color: rgba(216, 216, 216, 0.212);
+}
+.message-box {
+  white-space: pre-line;
+  color:black;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.darker {
+  background-color: rgba(0, 174, 255, 0.219);
+  border-radius: 5px;
+}
+
+.message-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.msg-img-left span {
+  margin-right:10px;
+  max-width: 60px;
+}
+.msg-img-right span {
+  margin-left:10px;
+  max-width: 60px;
+}
+
+.time-right {
+  white-space: nowrap;
+  font-size:10px;
+  float: right;
+  color: rgba(0, 0, 0, 0.397);
+}
+
+.message-content-sender-image img {
+  float:right
+}
+.time-left {
+  white-space: nowrap;
+  float: right;
+  font-size:10px;
+  color: rgba(0, 0, 0, 0.397);
+}
+textarea {
+  resize: none;
+}
+.message-user {
+  height: 100%;
+  border-right:1px solid rgba(0, 0, 0, 0.253);
+}
+.message-post-bar {
+  height: 50px !important;
+}
+.btn:focus {
+  outline: 0;
+  outline-style: none;
+}
+.booking-date-range  .ant-input{
+  margin-top: 20px;
+  height: 40px;
+}
+.advertise-description ::placeholder  {
+  color: black !important;
+}
+.booking-requirement-text-box {
+  white-space: pre-line;
+  max-height: 150px;
+  padding: 5px;
+  font-size: 18px;
+  overflow: scroll;
+  text-align: left;
+  border-radius: 5px;
+  max-width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.174)
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.message-box-bar {
+  height: 65px;
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.281); */
+}
+.message-center-tab .ant-tabs-top-bar {
+  margin-bottom: 5px;
+}
+.chat-link-style {
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 120%;
+  color: rgba(0, 174, 255, 0.808);
+}
+.Accept-style {
+  cursor: pointer;
+}
+.Accept-style:hover {
+  border-block-color: rgba(13, 124, 158, 0.527);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 2000;
+}
+
+.user-page-property {
+  min-width: 1100px;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  z-index: 1000;
+}
+.home-page-recommodation {
+  border: 1px solid rgba(179, 176, 176, 0.596);
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.home-page-recommodation img {
+  width: 230px;
+  height: 200px;
+}
+
+.drop-down-menu .ant-dropdown-menu-item-active:hover {
+  background-color: rgba(245, 245, 245, 0.568)
+}
