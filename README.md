@@ -20,6 +20,14 @@ In the project directory (frontend), you can run:
 ### `npm install`
 To install all the package in the `package.json` file.
 
+### fill in the google api key
+
+In the `frontend/.env` file.
+
+```
+REACT_APP_GMAIL_API_KEY="<Your google api key>"
+```
+
 ### `npm start` (for developement)
 
 Runs the app in the development mode.<br>
