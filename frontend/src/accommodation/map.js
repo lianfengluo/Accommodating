@@ -55,6 +55,10 @@ export class MapContainer extends Component {
       })
     }
   };
+  shouldComponentUpdate(nextProps) {
+    return this.props.lat !== nextProps.lat || this.props.lng !== nextProps.lng ||
+        JSON.stringify(this.props.data) !== JSON.stringify(nextProps.data);
+  }
   changeCenter = ({ latLng }) => {
     let path = this.props.history.location.pathname.split('/');
     path[4] = latLng.lng();
